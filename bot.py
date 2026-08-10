@@ -102,7 +102,14 @@ def enviar_telegram(mensagem):
         timeout=30,
     )
 
-    resposta.raise_for_status()
+    print("Resposta do Telegram:")
+    print(resposta.text)
+
+    if not resposta.ok:
+        raise Exception(
+            f"Telegram rejeitou a mensagem: "
+            f"{resposta.status_code} - {resposta.text}"
+    )
 
 
 def main():
