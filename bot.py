@@ -136,11 +136,11 @@ def main():
     if novas:
         for oferta in novas:
             mensagem = (
-                "🎮 NOVA OFERTA PS4\n\n"
-                f"🎯 {oferta['nome']}\n"
-                f"🔥 {oferta['desconto']}% OFF\n"
-                f"💰 {oferta['preco']}\n\n"
-                "🛒 PlayStation Store Brasil\n"
+                "🥳 NOVA OFERTA PS4\n\n"
+                f"🧐 {oferta['nome']}\n"
+                f"🤑 {oferta['desconto']}% OFF\n"
+                f"🤓 {oferta['preco']}\n\n"
+                "🙏🏼 PlayStation Store Brasil\n"
                 f"{STORE_URL}"
             )
 
