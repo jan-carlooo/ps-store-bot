@@ -144,7 +144,7 @@ def main():
                 f"{STORE_URL}"
             )
 
-            enviar_telegram(mensagem)
+            enviar_telegram = ("https://api.telegram.org/bot{BOT_TOKEN}/sendMessage(mensagem) )
 
         salvar_enviadas(enviadas)
 
